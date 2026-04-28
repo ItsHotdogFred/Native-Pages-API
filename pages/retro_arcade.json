@@ -1,0 +1,97 @@
+{
+  "root": {
+    "components": [
+      {
+        "type": "box",
+        "width": "100%",
+        "height": "100%",
+        "backgroundColor": "#1A1300",
+        "border": true,
+        "borderStyle": "double",
+        "borderColor": "#F59E0B",
+        "title": "RETRO ARCADE",
+        "titleAlignment": "center",
+        "padding": 1,
+        "gap": 1,
+        "flexDirection": "column",
+        "children": [
+          {
+            "type": "ascii",
+            "text": "HIGH SCORE",
+            "font": "tiny"
+          },
+          {
+            "type": "text",
+            "content": "Quarter slots jammed, leaderboard still serious.",
+            "fg": "#FDE68A"
+          },
+          {
+            "type": "box",
+            "width": "100%",
+            "height": 11,
+            "backgroundColor": "#2B1E05",
+            "border": true,
+            "borderStyle": "solid",
+            "borderColor": "#FB7185",
+            "title": "Top Pilots",
+            "titleAlignment": "left",
+            "padding": 1,
+            "gap": 1,
+            "flexDirection": "column",
+            "children": [
+              {
+                "type": "text",
+                "content": "1) NOVA_KID .... 998420",
+                "fg": "#FDA4AF"
+              },
+              {
+                "type": "text",
+                "content": "2) BYTE_RUN .... 882110",
+                "fg": "#FDBA74"
+              },
+              {
+                "type": "text",
+                "content": "3) YOU? ........ _____",
+                "fg": "#FDE68A"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "width": "100%",
+            "height": 8,
+            "backgroundColor": "#101827",
+            "border": true,
+            "borderStyle": "double",
+            "borderColor": "#22D3EE",
+            "title": "Name Entry",
+            "titleAlignment": "center",
+            "padding": 1,
+            "gap": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "text",
+                "content": "Insert initials:",
+                "fg": "#A5F3FC"
+              },
+              {
+                "type": "input",
+                "placeholder": "AAA",
+                "width": 10,
+                "maxLength": 3,
+                "backgroundColor": "#0F172A",
+                "focusedBackgroundColor": "#1E293B",
+                "textColor": "#E2E8F0",
+                "focusedTextColor": "#FFFFFF",
+                "placeholderColor": "#64748B"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

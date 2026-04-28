@@ -1,0 +1,97 @@
+{
+  "root": {
+    "components": [
+      {
+        "type": "box",
+        "width": "100%",
+        "height": "100%",
+        "backgroundColor": "#120A2A",
+        "border": true,
+        "borderStyle": "double",
+        "borderColor": "#22D3EE",
+        "title": "MIDNIGHT MARKET",
+        "titleAlignment": "center",
+        "padding": 1,
+        "gap": 1,
+        "flexDirection": "column",
+        "children": [
+          {
+            "type": "ascii",
+            "text": "NEON STALLS",
+            "font": "tiny"
+          },
+          {
+            "type": "text",
+            "content": "Lantern vendors, synth music, and suspiciously cheap robot parts.",
+            "fg": "#C4B5FD"
+          },
+          {
+            "type": "box",
+            "width": "100%",
+            "height": 10,
+            "backgroundColor": "#1F1147",
+            "border": true,
+            "borderStyle": "solid",
+            "borderColor": "#F472B6",
+            "title": "Tonight's Specials",
+            "titleAlignment": "left",
+            "padding": 1,
+            "gap": 1,
+            "flexDirection": "column",
+            "children": [
+              {
+                "type": "text",
+                "content": "- Glow noodles",
+                "fg": "#F9A8D4"
+              },
+              {
+                "type": "text",
+                "content": "- Hologram dumplings",
+                "fg": "#A7F3D0"
+              },
+              {
+                "type": "text",
+                "content": "- Ion tea",
+                "fg": "#93C5FD"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "width": "100%",
+            "height": 8,
+            "backgroundColor": "#0F172A",
+            "border": true,
+            "borderStyle": "double",
+            "borderColor": "#FDE047",
+            "title": "Bargain Desk",
+            "titleAlignment": "center",
+            "padding": 1,
+            "gap": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "text",
+                "content": "Offer your best price:",
+                "fg": "#FDE68A"
+              },
+              {
+                "type": "input",
+                "placeholder": "e.g. 42 credits",
+                "width": 24,
+                "maxLength": 32,
+                "backgroundColor": "#111827",
+                "focusedBackgroundColor": "#1E293B",
+                "textColor": "#E5E7EB",
+                "focusedTextColor": "#FFFFFF",
+                "placeholderColor": "#9CA3AF"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

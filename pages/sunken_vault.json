@@ -1,0 +1,97 @@
+{
+  "root": {
+    "components": [
+      {
+        "type": "box",
+        "width": "100%",
+        "height": "100%",
+        "backgroundColor": "#081E2D",
+        "border": true,
+        "borderStyle": "solid",
+        "borderColor": "#67E8F9",
+        "title": "SUNKEN VAULT",
+        "titleAlignment": "center",
+        "padding": 1,
+        "gap": 1,
+        "flexDirection": "column",
+        "children": [
+          {
+            "type": "ascii",
+            "text": "LOCK DEPTH",
+            "font": "tiny"
+          },
+          {
+            "type": "text",
+            "content": "Pressure doors sealed. Artifact bay circulation is active.",
+            "fg": "#BAE6FD"
+          },
+          {
+            "type": "box",
+            "width": "100%",
+            "height": 12,
+            "backgroundColor": "#0D2B3E",
+            "border": true,
+            "borderStyle": "double",
+            "borderColor": "#34D399",
+            "title": "Recovered Items",
+            "titleAlignment": "left",
+            "padding": 1,
+            "gap": 1,
+            "flexDirection": "column",
+            "children": [
+              {
+                "type": "text",
+                "content": "- Brass compass with unknown marks",
+                "fg": "#A7F3D0"
+              },
+              {
+                "type": "text",
+                "content": "- Saltproof ledger, unreadable script",
+                "fg": "#C4B5FD"
+              },
+              {
+                "type": "text",
+                "content": "- Ceramic key fragment",
+                "fg": "#FDE68A"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "width": "100%",
+            "height": 8,
+            "backgroundColor": "#1E293B",
+            "border": true,
+            "borderStyle": "solid",
+            "borderColor": "#FDE047",
+            "title": "Catalog Entry",
+            "titleAlignment": "center",
+            "padding": 1,
+            "gap": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "text",
+                "content": "Tag item code:",
+                "fg": "#FEF08A"
+              },
+              {
+                "type": "input",
+                "placeholder": "e.g. SV-204",
+                "width": 16,
+                "maxLength": 12,
+                "backgroundColor": "#0F172A",
+                "focusedBackgroundColor": "#334155",
+                "textColor": "#E2E8F0",
+                "focusedTextColor": "#FFFFFF",
+                "placeholderColor": "#94A3B8"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

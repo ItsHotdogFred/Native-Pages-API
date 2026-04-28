@@ -1,0 +1,97 @@
+{
+  "root": {
+    "components": [
+      {
+        "type": "box",
+        "width": "100%",
+        "height": "100%",
+        "backgroundColor": "#10281F",
+        "border": true,
+        "borderStyle": "double",
+        "borderColor": "#6EE7B7",
+        "title": "FLOATING LIBRARY",
+        "titleAlignment": "center",
+        "padding": 1,
+        "gap": 1,
+        "flexDirection": "column",
+        "children": [
+          {
+            "type": "ascii",
+            "text": "STACK DECK",
+            "font": "tiny"
+          },
+          {
+            "type": "text",
+            "content": "Airship archives are open. Rare volumes available by request.",
+            "fg": "#A7F3D0"
+          },
+          {
+            "type": "box",
+            "width": "100%",
+            "height": 11,
+            "backgroundColor": "#133529",
+            "border": true,
+            "borderStyle": "solid",
+            "borderColor": "#22D3EE",
+            "title": "Featured Shelves",
+            "titleAlignment": "left",
+            "padding": 1,
+            "gap": 1,
+            "flexDirection": "column",
+            "children": [
+              {
+                "type": "text",
+                "content": "- Cartography of Lost Skies",
+                "fg": "#67E8F9"
+              },
+              {
+                "type": "text",
+                "content": "- Engines and Elegies",
+                "fg": "#C4B5FD"
+              },
+              {
+                "type": "text",
+                "content": "- Tea Rituals of the Cloud Belt",
+                "fg": "#FDE68A"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "width": "100%",
+            "height": 8,
+            "backgroundColor": "#0F172A",
+            "border": true,
+            "borderStyle": "double",
+            "borderColor": "#F472B6",
+            "title": "Borrow Request",
+            "titleAlignment": "center",
+            "padding": 1,
+            "gap": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "text",
+                "content": "Book title:",
+                "fg": "#F9A8D4"
+              },
+              {
+                "type": "input",
+                "placeholder": "Type title",
+                "width": 30,
+                "maxLength": 60,
+                "backgroundColor": "#111827",
+                "focusedBackgroundColor": "#1E293B",
+                "textColor": "#E2E8F0",
+                "focusedTextColor": "#FFFFFF",
+                "placeholderColor": "#9CA3AF"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

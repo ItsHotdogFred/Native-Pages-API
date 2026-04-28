@@ -1,0 +1,19 @@
+{
+  "name": "dusty-panda-dune",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch index.js",
+    "start": "bun index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@openrouter/sdk": "^0.12.7",
+    "ai": "^6.0.161",
+    "glob": "^13.0.6"
+  }
+}

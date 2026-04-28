@@ -1,0 +1,259 @@
+{
+  "root": {
+    "components": [
+      {
+        "type": "box",
+        "width": "100%",
+        "height": "100%",
+        "backgroundColor": "#1C0F05",
+        "border": true,
+        "borderStyle": "solid",
+        "borderColor": "#8B5E3C",
+        "title": "CHOCOLATE FROM SCRATCH",
+        "titleAlignment": "center",
+        "padding": 1,
+        "gap": 1,
+        "flexDirection": "column",
+        "children": [
+          {
+            "type": "text",
+            "content": "The art of making chocolate from scratch transforms raw cacao beans into the richest, most rewarding treat you will ever taste.",
+            "fg": "#F5E6D3",
+            "bg": "#1C0F05"
+          },
+          {
+            "type": "box",
+            "width": "100%",
+            "height": 9,
+            "backgroundColor": "#2A1A0A",
+            "border": true,
+            "borderStyle": "solid",
+            "borderColor": "#D4A574",
+            "title": "Ingredients",
+            "titleAlignment": "left",
+            "padding": 1,
+            "gap": 0,
+            "flexDirection": "column",
+            "children": [
+              {
+                "type": "text",
+                "content": "  Cacao beans ............ 200 g  (raw, whole, fermented)",
+                "fg": "#E8C9A0",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "  Cacao butter ........... 50 g   (for smoother texture)",
+                "fg": "#E8C9A0",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "  Sugar .................. 80 g   (powdered, adjust to taste)",
+                "fg": "#E8C9A0",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "  Pinch of salt .......... enhances depth and flavour",
+                "fg": "#E8C9A0",
+                "bg": "#2A1A0A"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "width": "100%",
+            "height": 16,
+            "backgroundColor": "#2A1A0A",
+            "border": true,
+            "borderStyle": "solid",
+            "borderColor": "#D4A574",
+            "title": "Step-by-Step Process",
+            "titleAlignment": "left",
+            "padding": 1,
+            "gap": 0,
+            "flexDirection": "column",
+            "children": [
+              {
+                "type": "text",
+                "content": "  1) ROAST  Spread beans on a tray. Roast at 150 C for 20-25 min.",
+                "fg": "#F5E6D3",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "              You will hear cracking. The aroma deepens to rich cocoa.",
+                "fg": "#A07850",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "  2) WINNOW  Cool beans, then crush and blow off the husks.",
+                "fg": "#F5E6D3",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "              You want only the dark nibs inside. Discard the shells.",
+                "fg": "#A07850",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "  3) GRIND  Blend nibs in a high-power grinder for 15-30 min.",
+                "fg": "#F5E6D3",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "              Nibs melt into a thick, aromatic paste called cocoa liquor.",
+                "fg": "#A07850",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "  4) CONCH  Continue grinding 1-4 hours for silky smoothness.",
+                "fg": "#F5E6D3",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "              Add cacao butter and sugar gradually during this stage.",
+                "fg": "#A07850",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "  5) TEMPER  Heat to 50 C, cool to 28 C, reheat to 31-32 C.",
+                "fg": "#F5E6D3",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "              Proper temper gives the snap, shine, and stable crystals.",
+                "fg": "#A07850",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "  6) MOLD & SET  Pour into molds, tap to release air bubbles,",
+                "fg": "#F5E6D3",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "              refrigerate 30 min. Pop out and enjoy your creation!",
+                "fg": "#A07850",
+                "bg": "#2A1A0A"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "width": "100%",
+            "height": 9,
+            "backgroundColor": "#2A1A0A",
+            "border": true,
+            "borderStyle": "solid",
+            "borderColor": "#D4A574",
+            "title": "Pro Tips",
+            "titleAlignment": "left",
+            "padding": 1,
+            "gap": 0,
+            "flexDirection": "column",
+            "children": [
+              {
+                "type": "text",
+                "content": "  Roast lighter for fruity notes; darker for deep, earthy flavour.",
+                "fg": "#FFD700",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "  Use a melangeur or wet grinder for the smoothest conching results.",
+                "fg": "#FFD700",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "  Never let water touch your chocolate; even a drop causes seizing.",
+                "fg": "#FFD700",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "  Add vanilla, cinnamon, or chili during conching for artisan bars.",
+                "fg": "#FFD700",
+                "bg": "#2A1A0A"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "width": "100%",
+            "height": 7,
+            "backgroundColor": "#2A1A0A",
+            "border": true,
+            "borderStyle": "solid",
+            "borderColor": "#D4A574",
+            "title": "Temperatures at a Glance",
+            "titleAlignment": "left",
+            "padding": 1,
+            "gap": 0,
+            "flexDirection": "column",
+            "children": [
+              {
+                "type": "text",
+                "content": "  Roast     150 C   20-25 min   |   Melt     50 C   until fluid",
+                "fg": "#E8C9A0",
+                "bg": "#2A1A0A"
+              },
+              {
+                "type": "text",
+                "content": "  Cool      28 C   steady hand  |   Working  31 C   pour & mold",
+                "fg": "#E8C9A0",
+                "bg": "#2A1A0A"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "width": "100%",
+            "height": 7,
+            "backgroundColor": "#1C0F05",
+            "border": true,
+            "borderStyle": "solid",
+            "borderColor": "#8B5E3C",
+            "title": "Search This Page",
+            "titleAlignment": "left",
+            "padding": 1,
+            "gap": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "text",
+                "content": "Find: Ingredients / Process / Pro Tips / Temperatures",
+                "fg": "#F5E6D3",
+                "bg": "#1C0F05"
+              },
+              {
+                "type": "input",
+                "placeholder": "Type a section name",
+                "width": 28,
+                "maxLength": 28,
+                "backgroundColor": "#1C0F05",
+                "focusedBackgroundColor": "#2A1A0A",
+                "textColor": "#F5E6D3",
+                "focusedTextColor": "#F5E6D3",
+                "placeholderColor": "#8B5E3C"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "root": {
+    "components": [
+      {
+        "type": "box",
+        "width": "100%",
+        "height": "100%",
+        "backgroundColor": "#2A1B10",
+        "border": true,
+        "borderStyle": "solid",
+        "borderColor": "#FDBA74",
+        "title": "DESERT OBSERVATORY",
+        "titleAlignment": "center",
+        "padding": 1,
+        "gap": 1,
+        "flexDirection": "column",
+        "children": [
+          {
+            "type": "ascii",
+            "text": "STAR DRIFT",
+            "font": "tiny"
+          },
+          {
+            "type": "text",
+            "content": "Dust is low tonight. Telescope array has full sky visibility.",
+            "fg": "#FED7AA"
+          },
+          {
+            "type": "box",
+            "width": "100%",
+            "height": 12,
+            "backgroundColor": "#3A2617",
+            "border": true,
+            "borderStyle": "double",
+            "borderColor": "#FCD34D",
+            "title": "Observation Log",
+            "titleAlignment": "left",
+            "padding": 1,
+            "gap": 1,
+            "flexDirection": "column",
+            "children": [
+              {
+                "type": "text",
+                "content": "Sector 4A: meteor trail, slow decay",
+                "fg": "#FDE68A"
+              },
+              {
+                "type": "text",
+                "content": "Sector 7C: binary pulse stable",
+                "fg": "#FDBA74"
+              },
+              {
+                "type": "text",
+                "content": "Sector 9D: faint nova bloom",
+                "fg": "#FCA5A5"
+              },
+              {
+                "type": "text",
+                "content": "Signal noise: nominal",
+                "fg": "#86EFAC"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "width": "100%",
+            "height": 8,
+            "backgroundColor": "#111827",
+            "border": true,
+            "borderStyle": "solid",
+            "borderColor": "#93C5FD",
+            "title": "Target Search",
+            "titleAlignment": "center",
+            "padding": 1,
+            "children": [
+              {
+                "type": "input",
+                "placeholder": "Enter star ID",
+                "width": 26,
+                "maxLength": 24,
+                "backgroundColor": "#0F172A",
+                "focusedBackgroundColor": "#1E293B",
+                "textColor": "#E5E7EB",
+                "focusedTextColor": "#FFFFFF",
+                "placeholderColor": "#9CA3AF"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
